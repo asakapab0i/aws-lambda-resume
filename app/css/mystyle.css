@@ -90,3 +90,7 @@ span.credential-url {
       display: none !important;
     }
   }
+
+.template.hoth .general-section .general-info .left-col, .template.hoth .general-section .general-info .right-col {
+    width: 23%;
+}
