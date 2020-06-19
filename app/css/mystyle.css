@@ -1,0 +1,92 @@
+.page-wrapper.letter .page {
+    height: auto !important;
+}
+
+body{
+    background-color: white;
+}
+
+.template.hoth .general-section .general-info {
+    display: inline;
+}
+
+.left-col, .right-col {
+    float: left;
+}
+
+.template.hoth .ios-section-wrapper:before, .template.hoth .profile-text-wrapper:before {
+    width: 92% !important;
+    z-index: -1;
+    height: 2px !important;
+}
+
+.customize-preview .page-wrapper .page {
+    box-shadow: none !important;
+}
+
+.template.hoth .experience-section .headline:after {
+    height: 100%;
+}
+
+/*
+    Previous Color: #ffae16
+*/
+.template.hoth .keyword{
+    background-color: #0747a6 !important;
+}
+
+.template.hoth .skills .skill-description .progress-level-1, .template.hoth .skills .skill-description .progress-level-2, .template.hoth .skills .skill-description .progress-level-3, .template.hoth .skills .skill-description .progress-level-4, .template.hoth .skills .skill-description .progress-level-5 {
+    background: #0747a6 !important;
+}
+
+.template.hoth .experience-section .headline:after{
+    background-color: #0747a6 !important;
+}
+
+.template.hoth .experience-item .experience-info:before{
+    background-color: #0747a6 !important;
+}
+
+.template.hoth .experience-item .experience-info .company-name {
+    order: 2;
+    width: 100%;
+    font-size: 12px !important;
+    color: grey !important;
+}
+
+*{
+    font-family: 'Roboto', serif !important;
+}
+
+a {
+    color: #0747A6 !important;
+}
+
+.template.hoth .general-section:before, .template.hoth .name{
+    color: #0747A6 !important;
+}
+
+.template.hoth .general-section:before {
+    background-color: #0747A6 !important;
+}
+
+.template.hoth .template-section-wrapper {
+    width: 100%;
+    display: flex;
+}
+
+.template.hoth .experience-item .experience-description .description {
+    padding-top: 2px !important;
+}
+
+span.credential-url {
+    font-weight: 600;
+    color: #290000;
+    font-size: 12px;
+}
+
+@media print {
+    .hidden-print {
+      display: none !important;
+    }
+  }
